@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+}
+
+.header {
+  height: 48px;
+}
+
+.container {
+  max-width: 320px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.hero-banner {
+  background-color: #315fa4;
+  height: 320px;
+  width: 414px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.picture {
+  background-color: brown;
+  height: 190px;
+  width: 177px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.picture .container {
+  height: 316px;
+}
+.flex-items {
+  flex-direction: column;
+  display: flex;
+}
+.info {
+  width: 100%;
+  margin: bottom 20px;
+  background-color: aqua;
+}
+
+.footer {
+  background-color: aquamarine;
+}
+
+.app-icon {
+  float: right;
+}
+
+.fa-user {
+  display: block;
+}
+
+.sr-only {
+  display: block;
+}
+
+.app-navigation {
+  float: left;
+}
+
+.fa-bars {
+  display: block;
+}
