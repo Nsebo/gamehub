@@ -1,5 +1,13 @@
+/*This is mobile*/
+
 body {
   background-color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
 }
 
 .app-icon {
@@ -26,9 +34,6 @@ body {
   max-width: 320px;
   background-color: transparent;
   margin: auto;
-  .container {
-    justify-content: c;
-  }
 }
 
 .hero-banner {
@@ -58,9 +63,9 @@ body {
   width: 177px;
   display: block;
   margin-bottom: 20px;
-
-  /*background-image: url("../images/Fifa\ 22.png")*/
 }
+
+/*background-image: url("../images/Fifa\ 22.png")*/
 
 .picture:nth-child(2) {
   margin: right 0;
@@ -89,9 +94,37 @@ aside ul {
   list-style: none;
 }
 
-.header {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 767px) {
+  body {
+    background-color: aqua;
+  }
 
-  padding: 0px 10px;
+  .header {
+    background-color: transparent;
+  }
+  .header .container {
+    height: 80px;
+  }
+  .fa-user {
+    display: none;
+  }
+  .fa-bars {
+    display: none;
+  }
+  /*.flex-items {
+    flex-direction: row;
+    display: flex;
+  }*/
+
+  .hero-banner {
+    height: 587px;
+  }
+  .flex-items {
+    display: flex;
+    position: relative;
+  }
+  .cta {
+    width: 100%;
+    flex-direction: row;
+  }
 }
