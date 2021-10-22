@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -12,20 +18,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav class="app-icon">
-      <label for="user-icon">
-        <span class="sr-only">User icon</span>
-        <i class="far fa-user"></i>
-      </label>
-    </nav>
-    <nav class="app-navigation">
-      <label for="hamburger-menu">
-        <span class="sr-only">hamburger menu</span>
-        <i class="fas fa-bars"></i>
-      </label>
-    </nav>
+    <header class="header">
+      <div class="app-icon">
+        <label for="user-icon">
+          <span class="sr-only">User icon</span>
+          <i class="far fa-user"></i>
+        </label>
+      </div>
 
-    <section class="header">
       <div class="container">
         <p>
           <img
@@ -36,27 +36,39 @@
           />
         </p>
       </div>
-    </section>
+
+      <div class="app-navigation">
+        <label for="hamburger-menu">
+          <span class="sr-only">hamburger menu</span>
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+    </header>
 
     <main>
       <section class="hero-banner">
         <div class="container">
-          <div class="square">big-square</div>
+          <div class="forza">
+            <h3>Forza Horizon 5</h3>
+          </div>
         </div>
       </section>
 
       <section class="cta">
         <div class="container">
           <div class="flex-items">
-            <div class="picture bg-fifaimage">
+            <div class="picture bg-fifaimage mr-20">
+              <img src="./images/Fifa 22.png" alt="" />
               <h3>FIFA 22</h3>
             </div>
             <div class="picture bg-warimage">
+              <img src="./images/God of war.png" alt="" />
               <h3>God of war</h3>
             </div>
           </div>
         </div>
       </section>
+
       <section class="info">
         <div class="container">
           <div class="button">
