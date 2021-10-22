@@ -26,6 +26,9 @@ body {
   max-width: 320px;
   background-color: transparent;
   margin: auto;
+  .container {
+    justify-content: c;
+  }
 }
 
 .hero-banner {
@@ -55,6 +58,7 @@ body {
   width: 177px;
   display: block;
   margin-bottom: 20px;
+
   /*background-image: url("../images/Fifa\ 22.png")*/
 }
 
