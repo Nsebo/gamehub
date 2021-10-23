@@ -81,6 +81,9 @@ body {
   flex-direction: column;
   justify-content: center;
   background-size: cover;
+  color: white;
+  min-height: 587px;
+
   /*min-height: 100vh;*/
 
   /*position: relative;
@@ -126,7 +129,11 @@ body {
 .info {
   width: 100%;
   margin: bottom 20px;
-  background-color: rgb(45, 45, 88);
+  margin-top: 20px;
+  background-color: aquamarine;
+  width: 100%;
+  height: 140px;
+  text-align: center;
 }
 
 /*.footer {
@@ -152,7 +159,7 @@ footer {
 }
 
 footer p {
-  text-transform: uppercase;
+  text-transform: small;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -164,34 +171,51 @@ footer ul {
 }
 
 footer ul li {
-  margin: 0 8px;
+  margin: 0 5px;
 }
-
 footer ul li a {
-  font-size: 36px;
+  font-size: 24px;
   cursor: pointer;
 }
-@media (max-width: 800px) {
+
+/*this is desktop*/
+@media (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+
+  .hero-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    width: 100%;
+    height: 587px;
+    margin-bottom: 20px;
+    background-image: url(../images/hero-banner.jpg);
+    position: relative;
+  }
   .forza {
-    min-height: 600px;
     color: white;
   }
 
   .forza h3 {
     font: size 65px;
   }
-
+  .info {
+    margin: bottom 20px;
+    margin-top: 20px;
+    background-color: lightblue;
+  }
+  .forza h3 {
+    font: size 40px;
+    margin-bottom: 15px;
+  }
+  footer {
+    padding: 20px 20px;
+  }
   /*position: relative;
     bottom: auto;
     text-align: start;
     
     flex-direction: row;*/
-}
-
-.forza h3 {
-  font: size 40px;
-  margin-bottom: 15px;
-}
-footer {
-  padding: 80px 15px;
 }
