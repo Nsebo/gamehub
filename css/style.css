@@ -50,6 +50,29 @@ body {
   height: 320px;
   margin-bottom: 20px;
   background-image: url("../images/Forza\ horizon\ 5.png");
+  position: relative;
+}
+
+.arrow-button-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: 1px solid black;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+
+.arrow-button-container div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+}
+
+.arrow-button-container div button {
+  padding: 5px;
 }
 
 .forza {
@@ -152,26 +175,23 @@ footer ul li a {
   .forza {
     min-height: 600px;
     color: white;
-  
   }
 
   .forza h3 {
     font: size 65px;
   }
-  
-  
-    /*position: relative;
+
+  /*position: relative;
     bottom: auto;
     text-align: start;
     
     flex-direction: row;*/
-  }
-  
-  .forza h3 {
-    font: size 40px;
-    margin-bottom: 15px;
-  }
-  footer {
-    padding: 80px 15px;
-  }
+}
+
+.forza h3 {
+  font: size 40px;
+  margin-bottom: 15px;
+}
+footer {
+  padding: 80px 15px;
 }
