@@ -1,25 +1,24 @@
 /*This is mobile*/
+
 body {
   background-color: white;
 }
 
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
 /* .header {
-  
-  display: flex;
-  
-  align-items: center;
-  
-  padding: 0px 10px;
-  
-  } */
+
+display: flex;
+
+align-items: center;
+
+padding: 0px 10px;
+
+} */
 
 .app-icon {
   float: right;
@@ -43,29 +42,15 @@ body {
 
 .container {
   max-width: 320px;
-
   background-color: transparent;
-
   margin: auto;
-}
-
-.hero-banner {
-  background-color: #315fa4;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*background-position: top;*/
-  width: 100%;
-  height: 320px;
-  margin-bottom: 20px;
-  background-image: url("../images/Forza\horizon\5.png");
-  position: relative;
 }
 
 .arrow-button-container {
   position: absolute;
   top: 0;
   bottom: 0;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   left: 0;
   right: 0;
   display: grid;
@@ -90,11 +75,15 @@ body {
   background-size: cover;
   color: white;
   min-height: 587px;
-  /*min-height: 100vh;
-  position: relative;
-  bottom: auto;
-  text-align: start;
-  flex-direction: row;*/
+  /*min-height: 100vh;*/
+  /*position: relative;
+
+bottom: auto;
+
+text-align: start;
+
+
+flex-direction: row;*/
 }
 
 .forza h3 {
@@ -118,7 +107,6 @@ body {
 
 .picture:nth-child(2) {
   margin: right 0;
-
   /*background-image: url("../images/God\ of\ war.png");*/
 }
 
@@ -142,8 +130,10 @@ body {
 }
 
 /*.footer {
-  background-color: aquamarine;
-  }*/
+
+background-color: aquamarine;
+
+}*/
 
 aside ul {
   list-style: none;
@@ -191,94 +181,87 @@ footer ul li a {
     background-color: white;
     color: black;
   }
-
+  .hero-banner {
+    /* background-color: #315fa4; */
+    /* background-size:contain; */
+    /* background-repeat: no-repeat; */
+    /*background-position: top;*/
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-position: center; */
+    margin-bottom: 20px;
+    /* background-image: url("../images/Forza\ horizon\ 5.png"); */
+  }
   .header {
     width: 100%;
     height: 10%;
     color: black !important;
   }
-
   .fa-bars {
     display: none;
   }
-
+  .fa-user {
+    display: none;
+  }
   .container {
     max-width: 320px;
     background-color: transparent;
     justify-content: left;
-
     /*position: absolute;
-  
-  float: left;*/
-  }
 
+float: left;*/
+  }
   .app-navigation {
     float: right;
     line-height: 63px;
     margin-right: 20px;
     margin-top: 20px;
   }
-
   .appTopBody {
     margin-left: 100px;
     margin-right: 100px;
   }
-
   .forza {
     position: absolute;
     padding-top: 550px;
-
     /* font-size: 40px;*/
   }
-
   ul {
     display: inline-flex;
     gap: 26px;
     list-style: none;
   }
-
   a {
     text-decoration: none !important;
   }
-
-  a :hover {
+  a:hover {
     text-decoration: underline !important;
   }
-
   .color-red {
     color: red;
   }
-
   .color-green {
     color: green;
   }
-
   .color-blue {
     color: blue;
   }
-
   .color-purple {
     color: purple;
   }
-
   .color-black {
     color: black;
   }
-
   .app-icon {
     display: none;
   }
-
   .sr-only {
     display: none;
   }
-
   #hamburger-menu {
     display: none;
-
     /* hide the checkbox*/
   }
-
   .hero-banner {
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -290,224 +273,19 @@ footer ul li a {
     background-image: url(../images/hero-banner.jpg);
     position: relative;
   }
-
   /*.forza {
-  color: white;
-  }
-  .forza h3 {
-  font: size 65px;
-  }*/
 
-  .forza {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    color: white;
-    min-height: 587px;
+color: white;
 
-    /*min-height: 100vh;
-    position: relative;
-  bottom: auto;
-  text-align: start;
-  flex-direction: row;*/
-  }
-
-  .forza h3 {
-    font-size: 40px;
-    /* margin-bottom: 15px;*/
-    margin-top: 170px;
-    margin-left: 20px;
-  }
-
-  .picture {
-    height: 190px;
-    width: 177px;
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .cta {
-    margin-top: 10px;
-    /* width: 80%; */
-    display: grid;
-    grid-template-columns:
-      auto
-      auto 550px;
-    gap: 5px;
-    /* gap: 87px; */
-  }
-
-  .thumbnail {
-    width: 550px;
-  }
-
-  .thumbnail_text {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .thumbnail_text h3 {
-    font-size: 30px;
-  }
-
-  .thumbnail_text p {
-    font-size: 15px;
-  }
-
-  .thumbnail_text button {
-    font-size: 15px;
-    background-color: darkblue;
-    height: 50px;
-    color: #fff;
-    width: 200px;
-    margin-left: 100px;
-    outline: none;
-    border: none;
-  }
-
-  .thumbnail__Background {
-    background-color: darkgray;
-    display: grid;
-    grid-template-columns: auto;
-    /* width: 90%; */
-    width: 100%;
-    height: 130vh;
-    margin-top: 75px;
-    /* position: absolute; 
-     margin-left: 100px; */
-    margin-right: 200px;
-  }
-
-  .thumbnail__Background label {
-    font-size: 50px;
-  }
-  /* background-color: red; 
-grid-template-columns: auto auto auto;
-  flex-direction: column;*/
-  footer {
-    bottom: 0;
-    display: grid;
-    grid-template-columns:
-      auto
-      auto;
-    /* grid-template-columns: 640px 674px; */
-    margin-top: 310px;
-  }
 }
 
-/*this is desktop*/
 
-@media (min-width: 1000px) and (max-width: 1600px) {
-  body {
-    background-color: white;
-    color: black;
-  }
 
-  .header {
-    width: 100%;
-    height: 10%;
-    color: black !important;
-  }
+.forza h3 {
 
-  .fa-bars {
-    display: none;
-  }
+font: size 65px;
 
-  .container {
-    max-width: 320px;
-    background-color: transparent;
-    justify-content: left;
-    /*position: absolute;
-  float: left;*/
-  }
-
-  .app-navigation {
-    float: right;
-    line-height: 63px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-
-  .appTopBody {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .forza {
-    position: absolute;
-    padding-top: 550px;
-    /* font-size: 40px;*/
-  }
-
-  ul {
-    display: inline-flex;
-    gap: 26px;
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none !important;
-  }
-
-  a :hover {
-    text-decoration: underline !important;
-  }
-
-  .color-red {
-    color: red;
-  }
-
-  .color-green {
-    color: green;
-  }
-
-  .color-blue {
-    color: blue;
-  }
-
-  .color-purple {
-    color: purple;
-  }
-
-  .color-black {
-    color: black;
-  }
-
-  .app-icon {
-    display: none;
-  }
-
-  .sr-only {
-    display: none;
-  }
-
-  #hamburger-menu {
-    display: none;
-    /* hide the checkbox*/
-  }
-
-  .hero-banner {
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*background-position: top;*/
-    background-position: 100% 100%;
-    width: 100%;
-    height: 787px;
-    margin-bottom: 20px;
-    background-image: url(../images/hero-banner.jpg);
-    position: relative;
-  }
-
-  /*.forza {
-  color: white;
-  }
-  .forza h3 {
-  font: size 65px;
-  }*/
-
+}*/
   .forza {
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -518,54 +296,48 @@ grid-template-columns: auto auto auto;
     min-height: 587px;
     /*min-height: 100vh;*/
     /*position: relative;
-  bottom: auto;
-  text-align: start;
-  flex-direction: row;*/
-  }
 
+bottom: auto;
+
+text-align: start;
+
+
+flex-direction: row;*/
+  }
   .forza h3 {
     font-size: 40px;
     /* margin-bottom: 15px;*/
     margin-top: 170px;
     margin-left: 20px;
   }
-
   .picture {
     height: 190px;
     width: 177px;
     display: block;
     margin-bottom: 20px;
   }
-
   .cta {
     margin-top: 10px;
     /* width: 80%; */
     display: grid;
-    grid-template-columns:
-      auto
-      auto 350px;
-    gap: 50px;
+    grid-template-columns: auto auto 450px;
+    gap: 60px;
     /* gap: 87px; */
   }
-
   .thumbnail {
-    width: 350px;
+    width: 450px;
   }
-
   .thumbnail_text {
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
-
   .thumbnail_text h3 {
     font-size: 30px;
   }
-
   .thumbnail_text p {
     font-size: 15px;
   }
-
   .thumbnail_text button {
     font-size: 15px;
     background-color: darkblue;
@@ -576,10 +348,8 @@ grid-template-columns: auto auto auto;
     outline: none;
     border: none;
   }
-
-  /*.thumbnail_text button :hover {
-  }*/
-
+  .thumbnail_text button:hover {
+  }
   .thumbnail__Background {
     background-color: darkgray;
     display: grid;
@@ -592,14 +362,603 @@ grid-template-columns: auto auto auto;
     /* margin-left: 100px; */
     margin-right: 200px;
   }
-
   .thumbnail__Background label {
     font-size: 50px;
   }
-
   /* background-color: red; */
   /*grid-template-columns: auto auto auto;
-  flex-direction: column;*/
+
+flex-direction: column;*/
+}
+
+@media (min-width: 1000px) and (max-width: 1600px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+  .header {
+    width: 100%;
+    height: 10%;
+    color: black !important;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .container {
+    max-width: 320px;
+    background-color: transparent;
+    justify-content: left;
+    /*position: absolute;
+
+float: left;*/
+  }
+  .app-navigation {
+    float: right;
+    line-height: 63px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .appTopBody {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .forza {
+    position: absolute;
+    padding-top: 550px;
+    /* font-size: 40px;*/
+  }
+  ul {
+    display: inline-flex;
+    gap: 26px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: underline !important;
+  }
+  .color-red {
+    color: red;
+  }
+  .color-green {
+    color: green;
+  }
+  .color-blue {
+    color: blue;
+  }
+  .color-purple {
+    color: purple;
+  }
+  .color-black {
+    color: black;
+  }
+  .app-icon {
+    display: none;
+  }
+  .sr-only {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+    /* hide the checkbox*/
+  }
+  .hero-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: 100% 100%;
+    width: 100%;
+    height: 787px;
+    margin-bottom: 20px;
+    background-image: url(../images/hero-banner.jpg);
+    position: relative;
+  }
+  /*.forza {
+
+color: white;
+
+}
+
+
+
+.forza h3 {
+
+font: size 65px;
+
+}*/
+  .forza {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    color: white;
+    min-height: 587px;
+    /*min-height: 100vh;*/
+    /*position: relative;
+
+bottom: auto;
+
+text-align: start;
+
+
+flex-direction: row;*/
+  }
+  .forza h3 {
+    font-size: 40px;
+    /* margin-bottom: 15px;*/
+    margin-top: 170px;
+    margin-left: 20px;
+  }
+  .picture {
+    height: 190px;
+    width: 177px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .cta {
+    margin-top: 10px;
+    /* width: 80%; */
+    display: grid;
+    grid-template-columns: auto auto 350px;
+    gap: 50px;
+    /* gap: 87px; */
+  }
+  .thumbnail {
+    width: 350px;
+  }
+  .thumbnail_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .thumbnail_text h3 {
+    font-size: 30px;
+  }
+  .thumbnail_text p {
+    font-size: 15px;
+  }
+  .thumbnail_text button {
+    font-size: 15px;
+    background-color: darkblue;
+    height: 50px;
+    color: #fff;
+    width: 200px;
+    margin-left: 100px;
+    outline: none;
+    border: none;
+  }
+  .thumbnail_text button:hover {
+  }
+  .thumbnail__Background {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 90%; */
+    width: 100%;
+    height: 130vh;
+    margin-top: 75px;
+    /* position: absolute; */
+    /* margin-left: 100px; */
+    margin-right: 200px;
+  }
+  .thumbnail__Background label {
+    font-size: 50px;
+  }
+  /* background-color: red; */
+  /*grid-template-columns: auto auto auto;
+
+flex-direction: column;*/
+}
+
+@media (max-width: 999px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+    /* position: absolute; */
+  }
+  .header {
+    width: 100%;
+    height: 10%;
+    color: black !important;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .container {
+    max-width: 320px;
+    background-color: transparent;
+    justify-content: left;
+    /*position: absolute;
+
+float: left;*/
+  }
+  .app-navigation {
+    float: right;
+    line-height: 63px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .appTopBody {
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+  }
+  .forza {
+    position: absolute;
+    padding-top: 550px;
+    /* font-size: 40px;*/
+  }
+  ul {
+    display: inline-flex;
+    gap: 26px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: underline !important;
+  }
+  .color-red {
+    color: red;
+  }
+  .color-green {
+    color: green;
+  }
+  .color-blue {
+    color: blue;
+  }
+  .color-purple {
+    color: purple;
+  }
+  .color-black {
+    color: black;
+  }
+  .app-icon {
+    display: none;
+  }
+  .sr-only {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+    /* hide the checkbox*/
+  }
+  .hero-banner {
+    background-size: 100% 41%;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    background-position: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-top: -324px;
+    margin-bottom: 20px;
+    background-image: url(../images/hero-banner.jpg);
+    position: relative;
+    z-index: -10;
+  }
+  .app-navigation {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    margin-left: 13px;
+    width: 100px !important;
+    margin-top: -5px;
+    font-size: 2em;
+    position: absolute;
+  }
+  .fa-user {
+    display: block;
+    /* margin-left: 13px; */
+    /* width: 100px!important; */
+    margin-top: -5px;
+    font-size: 2em;
+    /* position: absolute; */
+    float: right;
+  }
+  /*.forza {
+
+color: white;
+
+}
+
+
+.forza h3 {
+
+font: size 65px;
+
+}*/
+  .forza {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    color: white;
+    min-height: 587px;
+    /*min-height: 100vh;*/
+    /*position: relative;
+
+bottom: auto;
+
+text-align: start;
+
+
+flex-direction: row;*/
+  }
+  .forza h3 {
+    font-size: 40px;
+    /* margin-bottom: 15px;*/
+    margin-top: -164px;
+    margin-left: 20px;
+  }
+  .picture {
+    height: 190px;
+    width: 177px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .cta {
+    margin-top: -10px;
+    /* width: 80%; */
+    /* display: flex; */
+    flex-direction: row;
+    /* grid-template-columns: auto auto 350px; */
+    gap: 50px;
+    /* gap: 87px; */
+  }
+  .thumbnail {
+    width: 80%;
+    align-self: center;
+  }
+  .thumbnail_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 20px;
+    /* justify-content: center; */
+  }
+  .thumbnail_text h3 {
+    font-size: 30px;
+    margin-left: 33px;
+    margin-top: -30px;
+  }
+  .thumbnail_text p {
+    font-size: 15px;
+    margin-left: 33px;
+    margin-top: -30px;
+  }
+  .thumbnail_text button {
+    font-size: 15px;
+    background-color: darkblue;
+    height: 50px;
+    color: #fff;
+    width: 82%;
+    /* margin-left: 100px; */
+    outline: none;
+    margin-bottom: 20px;
+    border: none;
+    margin-left: 33px;
+  }
+  .thumbnail_text button:hover {
+  }
+  .thumbnail__Background {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 90%; */
+    width: 100%;
+    height: 250vh;
+    margin-top: 75px;
+    /* position: absolute; */
+    /* margin-left: 100px; */
+    margin-right: 200px;
+  }
+  .thumbnail__Background label {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 57px;
+  }
+  /* background-color: red; */
+  /*grid-template-columns: auto auto auto;
+
+flex-direction: column;*/
+  .arrow-button-container div button {
+    padding: 5px;
+    margin-top: 270px;
+  }
+}
+
+/*this is desktop*/
+
+@media (min-width: 1000px) and (max-width: 1600px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+  .header {
+    width: 100%;
+    height: 10%;
+    color: black !important;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .fa-user {
+    display: none;
+  }
+  .container {
+    max-width: 320px;
+    background-color: transparent;
+    justify-content: left;
+    /*position: absolute;
+
+float: left;*/
+  }
+  .app-navigation {
+    float: right;
+    line-height: 63px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .appTopBody {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .forza {
+    position: absolute;
+    padding-top: 550px;
+    /* font-size: 40px;*/
+  }
+  ul {
+    display: inline-flex;
+    gap: 26px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: underline !important;
+  }
+  .color-red {
+    color: red;
+  }
+  .color-green {
+    color: green;
+  }
+  .color-blue {
+    color: blue;
+  }
+  .color-purple {
+    color: purple;
+  }
+  .color-black {
+    color: black;
+  }
+  .app-icon {
+    display: none;
+  }
+  .sr-only {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+    /* hide the checkbox*/
+  }
+  .hero-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: 100% 100%;
+    width: 100%;
+    height: 787px;
+    margin-bottom: 20px;
+    background-image: url(../images/hero-banner.jpg);
+    position: relative;
+  }
+  /*.forza {
+
+color: white;
+
+}
+
+
+
+.forza h3 {
+
+font: size 65px;
+
+}*/
+  .forza {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    color: white;
+    min-height: 587px;
+    /*min-height: 100vh;*/
+    /*position: relative;
+
+bottom: auto;
+
+text-align: start;
+
+
+flex-direction: row;*/
+  }
+  .forza h3 {
+    font-size: 40px;
+    /* margin-bottom: 15px;*/
+    margin-top: 170px;
+    margin-left: 20px;
+  }
+  .picture {
+    height: 190px;
+    width: 177px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .cta {
+    margin-top: 10px;
+    /* width: 80%; */
+    display: grid;
+    grid-template-columns: auto auto 350px;
+    gap: 50px;
+    /* gap: 87px; */
+  }
+  .thumbnail {
+    width: 350px;
+  }
+  .thumbnail_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .thumbnail_text h3 {
+    font-size: 30px;
+  }
+  .thumbnail_text p {
+    font-size: 15px;
+  }
+  .thumbnail_text button {
+    font-size: 15px;
+    background-color: darkblue;
+    height: 50px;
+    color: #fff;
+    width: 200px;
+    margin-left: 100px;
+    outline: none;
+    border: none;
+  }
+  .thumbnail_text button:hover {
+  }
+  .thumbnail__Background {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 90%; */
+    width: 100%;
+    height: 130vh;
+    margin-top: 75px;
+    /* position: absolute; */
+    /* margin-left: 100px; */
+    margin-right: 200px;
+  }
+  .thumbnail__Background label {
+    font-size: 50px;
+  }
+  /* background-color: red; */
+  /*grid-template-columns: auto auto auto;
+
+flex-direction: column;*/
 }
 
 .info {
@@ -646,223 +1005,16 @@ grid-template-columns: auto auto auto;
 footer {
   bottom: 0;
   display: grid;
-  grid-template-columns:
-    auto
-    auto;
-
+  grid-template-columns: auto auto;
   /* grid-template-columns: 640px 674px; */
-
   margin-top: 300px;
 }
 
 /*position: relative;
-  bottom: auto;
-  text-align: start;
-  flex-direction: row;*/
-@media (max-width: 999px) {
-  body {
-    background-color: white;
-    color: black;
-  }
 
-  .header {
-    width: 100%;
-    height: 10%;
-    color: black !important;
-  }
+bottom: auto;
 
-  .fa-bars {
-    display: none;
-  }
+text-align: start;
 
-  .container {
-    max-width: 320px;
-    background-color: transparent;
-    justify-content: left;
 
-    /*position: absolute;
-  
-  float: left;*/
-  }
-
-  .app-navigation {
-    float: right;
-    line-height: 63px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-
-  .appTopBody {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .forza {
-    position: absolute;
-    padding-top: 550px;
-
-    /* font-size: 40px;*/
-  }
-
-  ul {
-    display: inline-flex;
-    gap: 26px;
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none !important;
-  }
-
-  a :hover {
-    text-decoration: underline !important;
-  }
-
-  .color-red {
-    color: red;
-  }
-
-  .color-green {
-    color: green;
-  }
-
-  .color-blue {
-    color: blue;
-  }
-
-  .color-purple {
-    color: purple;
-  }
-
-  .color-black {
-    color: black;
-  }
-
-  .app-icon {
-    display: none;
-  }
-
-  .sr-only {
-    display: none;
-  }
-
-  #hamburger-menu {
-    display: none;
-
-    /* hide the checkbox*/
-  }
-
-  .hero-banner {
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    /*background-position: top;*/
-
-    background-position: 100% 100%;
-    width: 100%;
-    height: 787px;
-    margin-bottom: 20px;
-    background-image: url(../images/hero-banner.jpg);
-    position: relative;
-  }
-
-  /*.forza {
-  color: white;
-  }
-  .forza h3 {
-  font: size 65px;
-  }*/
-
-  .forza {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    color: white;
-    min-height: 587px;
-    /*min-height: 100vh;
-    position: relative;
-  bottom: auto;
-  text-align: start;
-  flex-direction: row;*/
-  }
-
-  .forza h3 {
-    font-size: 40px;
-    /* margin-bottom: 15px;*/
-    margin-top: 170px;
-    margin-left: 20px;
-  }
-
-  .picture {
-    height: 190px;
-    width: 177px;
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .cta {
-    margin-top: 10px;
-    /* width: 80%; 
-  display: flex; */
-    flex-direction: row;
-    /* grid-template-columns: auto auto 350px; */
-    gap: 50px;
-    /* gap: 87px; */
-  }
-
-  .thumbnail {
-    width: 750px;
-  }
-
-  .thumbnail_text {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .thumbnail_text h3 {
-    font-size: 30px;
-  }
-
-  .thumbnail_text p {
-    font-size: 15px;
-  }
-
-  .thumbnail_text button {
-    font-size: 15px;
-    background-color: darkblue;
-    height: 50px;
-    color: #fff;
-    width: 200px;
-
-    /* margin-left: 100px; */
-    outline: none;
-    border: none;
-  }
-
-  .thumbnail__Background {
-    background-color: darkgray;
-    display: grid;
-    grid-template-columns: auto;
-
-    /* width: 90%; */
-
-    width: 100%;
-    height: 400vh;
-    margin-top: 75px;
-
-    /* position: absolute; 
-   margin-left: 100px; */
-    margin-right: 200px;
-  }
-
-  .thumbnail__Background label {
-    font-size: 50px;
-  }
-
-  /* background-color: red; */
-  /*grid-template-columns: auto auto auto;
-  flex-direction: column;*/
-}
+flex-direction: row;*/
