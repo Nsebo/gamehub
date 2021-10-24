@@ -9,11 +9,11 @@ body {
   box-sizing: border-box;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  padding: 0px 10px;
-}
+/* .header {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+  } */
 
 .app-icon {
   float: right;
@@ -87,14 +87,14 @@ body {
   /*min-height: 100vh;*/
 
   /*position: relative;
-  bottom: auto;
-  text-align: start;
-  
-  flex-direction: row;*/
+    bottom: auto;
+    text-align: start;
+    
+    flex-direction: row;*/
 }
 
 .forza h3 {
-  font: size 40px;
+  font: size 10px;
   margin-bottom: 15px;
 }
 
@@ -120,7 +120,7 @@ body {
 .flex-items {
   /*flex-direction: column;*/
 
-  display: flex;
+  /* display: flex; */
 }
 .mr-20 {
   margin-right: 20px;
@@ -136,8 +136,8 @@ body {
 }
 
 /*.footer {
-  background-color: aquamarine;
-}*/
+    background-color: aquamarine;
+  }*/
 
 aside ul {
   list-style: none;
@@ -179,7 +179,7 @@ footer ul li a {
 }
 
 /*this is desktop*/
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
   body {
     background-color: white;
     color: black;
@@ -199,18 +199,22 @@ footer ul li a {
     background-color: transparent;
     justify-content: left;
     /*position: absolute;
-    float: left;*/
+      float: left;*/
   }
   .app-navigation {
-    position: absolute;
     float: right;
-    justify-content: right;
-    margin-left: 70%;
+    line-height: 63px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .appTopBody {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .forza {
     position: absolute;
-    padding-top: 350px;
+    padding-top: 550px;
     /* font-size: 40px;*/
   }
 
@@ -257,19 +261,20 @@ footer ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     /*background-position: top;*/
+    background-position: 100% 100%;
     width: 100%;
-    height: 587px;
+    height: 787px;
     margin-bottom: 20px;
     background-image: url(../images/hero-banner.jpg);
     position: relative;
   }
   /*.forza {
-    color: white;
-  }
-
-  .forza h3 {
-    font: size 65px;
-  }*/
+      color: white;
+    }
+  
+    .forza h3 {
+      font: size 65px;
+    }*/
 
   .forza {
     font-family: "Poppins", sans-serif;
@@ -283,10 +288,10 @@ footer ul li a {
     /*min-height: 100vh;*/
 
     /*position: relative;
-    bottom: auto;
-    text-align: start;
-    
-    flex-direction: row;*/
+      bottom: auto;
+      text-align: start;
+      
+      flex-direction: row;*/
   }
 
   .forza h3 {
@@ -304,25 +309,101 @@ footer ul li a {
   }
 
   .cta {
-    width: 100%;
+    margin-top: 100px;
+    width: 35%;
     display: flex;
-
-    /*grid-template-columns: auto auto auto;
-     flex-direction: column;*/
+    position: relative;
+    /* background-color: red; */
+    gap: 87px;
+  }
+  .thumbnail {
+    width: 405px;
+  }
+  .thumbnail_text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .thumbnail_text h3 {
+    font-size: 30px;
+  }
+  .thumbnail_text p {
+    font-size: 15px;
+  }
+  .thumbnail_text button {
+    font-size: 15px;
+    background-color: darkblue;
+    height: 50px;
+    color: #fff;
+    width: 200px;
+    margin-left: 100px;
+    outline: none;
+    border: none;
+  }
+  .thumbnail_text button :hover {
   }
 
-  .info {
-    margin: bottom 20px;
-    margin-top: 20px;
-    background-color: lightblue;
+  .thumbnail__Background {
+    background-color: darkgray;
+    /* width: 100%; */
+    height: 100vh;
+    margin-top: 75px;
+    position: absolute;
+  }
+  .thumbnail__Background label {
+    font-size: 50px;
   }
 
-  footer {
-    padding: 20px 20px;
-  }
-  /*position: relative;
-    bottom: auto;
-    text-align: start;
-    
-    flex-direction: row;*/
+  /* background-color: red; */
+  /*grid-template-columns: auto auto auto;
+       flex-direction: column;*/
 }
+
+.info {
+  margin-top: 1100px;
+  height: 30vh;
+  background-color: lightblue;
+  position: absolute;
+}
+.info h3 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.info p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.info button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+.info_signin {
+  background-color: darkblue;
+  color: white;
+}
+.info_createAccount {
+  /* background-color: darkblue; */
+  color: darkblue;
+  border-color: darkblue;
+}
+
+.info_buttonDiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+footer {
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-template-columns: 640px 674px; */
+  margin-top: 1400px;
+}
+/*position: relative;
+      bottom: auto;
+      text-align: start;
+      
+      flex-direction: row;*/
