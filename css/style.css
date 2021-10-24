@@ -207,6 +207,13 @@ footer ul li a {
     justify-content: right;
     margin-left: 70%;
   }
+
+  .forza {
+    position: absolute;
+    padding-top: 350px;
+    /* font-size: 40px;*/
+  }
+
   ul {
     display: inline-flex;
     gap: 26px;
@@ -256,13 +263,13 @@ footer ul li a {
     background-image: url(../images/hero-banner.jpg);
     position: relative;
   }
-  .forza {
+  /*.forza {
     color: white;
   }
 
   .forza h3 {
     font: size 65px;
-  }
+  }*/
 
   .forza {
     font-family: "Poppins", sans-serif;
@@ -283,8 +290,10 @@ footer ul li a {
   }
 
   .forza h3 {
-    font: size 40px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    /* margin-bottom: 15px;*/
+    margin-top: 170px;
+    margin-left: 20px;
   }
 
   .picture {
@@ -293,15 +302,21 @@ footer ul li a {
     display: block;
     margin-bottom: 20px;
   }
+
+  .cta {
+    width: 100%;
+    display: flex;
+
+    /*grid-template-columns: auto auto auto;
+     flex-direction: column;*/
+  }
+
   .info {
     margin: bottom 20px;
     margin-top: 20px;
     background-color: lightblue;
   }
-  .forza h3 {
-    font: size 40px;
-    margin-bottom: 15px;
-  }
+
   footer {
     padding: 20px 20px;
   }
