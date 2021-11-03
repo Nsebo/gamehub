@@ -48,9 +48,12 @@
           </div>
         </div>
         <div class="thumbnail">
-          <img src="./img/Forza-horizon-5.png" alt="thumbnail"
-          width="414px"
-          height="320px">
+          <picture>
+            <source media="(max-width: 499px)" srcset="./img/Forza-horizon-5.png">
+            <source media="(min-width: 500px)" srcset="./img/forza-desktop.png">
+            <img src="./img/forza-desktop.png" alt="thumbnail">
+          </picture>
+         
         </div>
       </section>
       

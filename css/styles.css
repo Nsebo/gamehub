@@ -29,7 +29,8 @@ body {
 }
 
 .hero-banner {
-  background-color: aquamarine;
+  position: relative;
+
   height: 350px;
 }
 
@@ -49,13 +50,28 @@ body {
   width: 90%;
 }
 
-.forza {
+.thumbnail {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  color: white;
-  min-height: 550px;
+
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail picture {
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail picture source {
+  height: 100%;
+  width: 100%;
+}
+.thumbnail picture img {
+  height: 100%;
+  width: 100%;
 }
 
 .forza h3 {
