@@ -7,6 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,57 +18,45 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="app-header">
-      <header class="header">
+    <header class="app-header">
+      <div class="container">
         <label for="hamburger-menu">
           <span class="sr-only">Hamburger menu</span>
           <i class="fas fa-bars"></i>
         </label>
         <div class="logo">
-          <img src="./img/GameHub_Logo .png" alt="logo" width="100px" height="62px"/>
+          <img
+            src="./img/GameHub_Logo .png"
+            alt="logo"
+            width="100px"
+            height="62px"
+          />
         </div>
-        <div>
-          <label for="hamburger-menu">
-            <span class="sr-only">User icon</span>
-            <i class="far fa-user"></i>
-          </label>
-
-          <div class="app-navigation">
-            <ul>
-              <li>
-                <a href="./home.html"><i class="fas fa-home color-red"></i>Home</a>
-              </li>
-              <li>
-                <a href="./buy/sell.html"
-                  ><i class="fas fa-shopping-cart color-black"></i>Market</a
-                >
-              </li>
-              <li>
-                <a href="./about us.html"
-                  ><i class="fas fa-bacon color-green"></i>About us</a
-                >
-              </li>
-              <li>
-                <a href="./contact us.html"
-                  ><i class="fas fa-phone color-purple"></i>Contact</a
-                >
-              </li>
-              <li>
-                <a href="./login.html"
-                  ><i class="fas fa-lock color-blue"></i>Login in</a
-                >
-              </li>
-            </ul>
-           </div>
-        </div> 
-    </div>
-     </div>
-  </header>
+        <label for="User-icon">
+          <span class="sr-only">User icon</span>
+          <i class="fas fa-user"></i>
+        </label>
+      </div>
+    </header>  
     <main>
-      <section>hero-banner</section>
-      <div>thumbnail-background</div>
-      <section>info-section</section>
-      <footer>footer</footer>
+      <section class="hero-banner">
+        <div class="arrow-button-container">
+          <div>
+            <button><i class="fas fa-angle-left"></i></button>
+            <button><i
+              class="fas fa-angle-right"></i></button>  
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="./img/Forza-horizon-5.png" alt="thumbnail"
+          width="414px"
+          height="320px">
+        </div>
+      </section>
+      
+              
+    
+                
+      </div>
     </main>
-  </body>
 </html>

@@ -4,11 +4,62 @@ body {
   background-color: aliceblue;
   font-family: "Roboto", sans-serif;
 }
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}*/
+
 .app-header {
   background-color: aqua;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-bars {
+  display: block;
+}
+.fa-user {
+  float: right;
+}
+
+.hero-banner {
+  background-color: aquamarine;
+  height: 350px;
+}
+
+.arrow-button-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+
+.arrow-button-container div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.forza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  color: white;
+  min-height: 550px;
+}
+
+.forza h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 25px;
 }
