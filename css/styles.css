@@ -86,20 +86,10 @@ body {
 }
 
 .footer {
-  background: #284e7a;
+  background-color: #284e7a;
+  color: white;
   text-align: center;
 }
-
-/*.bg-bg-fifa22image {
-  background-image: url("../img/Fifa22.png");
-  background-repeat: no-repeat;
+a {
+  color: white;
 }
-
-.bg-godofwarimage {
-  background-image: url("../img/God-of-war.png");
-  background-repeat: no-repeat;
-}
-.bg-jediimage {
-  background-image: url("../img/Jedi.png");
-  background-repeat: no-repeat;
-}*/ ;
