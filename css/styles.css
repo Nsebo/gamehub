@@ -2,6 +2,7 @@
 
 body {
   background-color: aliceblue;
+  font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -61,31 +62,35 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .thumbnail picture img {
   height: 100%;
   width: 100%;
 }
-.flex-items {
-  flex-direction: column;
+
+.section-text {
+  border: 5px solid red;
+  margin-top: 10px;
+}
+.call-to-action {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.call-to-action {
+.inquiry {
+  background-color: aquamarine;
   width: 100%;
-  margin-bottom: 20px;
+  height: 140px;
+  text-align: center;
 }
 
-.column {
-  height: 220px;
-  margin-bottom: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid red;
+.footer {
+  background: #284e7a;
+  text-align: center;
 }
 
-.bg-bg-fifa22image {
+/*.bg-bg-fifa22image {
   background-image: url("../img/Fifa22.png");
   background-repeat: no-repeat;
 }
@@ -97,4 +102,4 @@ body {
 .bg-jediimage {
   background-image: url("../img/Jedi.png");
   background-repeat: no-repeat;
-}
+}*/ ;
