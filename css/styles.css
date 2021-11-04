@@ -65,13 +65,36 @@ body {
   height: 100%;
   width: 100%;
 }
-.cta {
+.flex-items {
+  flex-direction: column;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  border: 10px solid red;
 }
 
-.cta picture {
-  margin-bottom: 45px;
+.call-to-action {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.column {
+  height: 220px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid red;
+}
+
+.bg-bg-fifa22image {
+  background-image: url("../img/Fifa22.png");
+  background-repeat: no-repeat;
+}
+
+.bg-godofwarimage {
+  background-image: url("../img/God-of-war.png");
+  background-repeat: no-repeat;
+}
+.bg-jediimage {
+  background-image: url("../img/Jedi.png");
+  background-repeat: no-repeat;
 }
