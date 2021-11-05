@@ -137,15 +137,3 @@ h2 {
     color: black;
   }
 }
-
-.fa-bars {
-  display: none;
-}
-.fa-user {
-  display: none;
-}
-.container {
-  max-width: 320px;
-  background-color: transparent;
-  justify-content: left;
-}
