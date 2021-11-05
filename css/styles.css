@@ -10,7 +10,7 @@ body {
 
 .app-header {
   background-color: aqua;
-  height: 80px;
+  height: 75px;
 }
 
 .container {
@@ -18,7 +18,6 @@ body {
   align-items: top;
   justify-content: space-between;
   gap: 10px;
-
   padding: 12px;
 }
 .logo {
@@ -130,8 +129,8 @@ h2 {
   margin: 0;
 }
 
-/*this is desktop and tablet*/
-@media screen and (min-width: 767px) {
+/*this is desktop */
+@media screen and (min-width: 1200px) {
   body {
     background-color: white;
     color: black;
