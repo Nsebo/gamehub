@@ -1,6 +1,6 @@
 /*this is mobile*/
 @media screen and (max-width: 500px) {
-  .call-to-action {
+  .cards {
     width: 100%;
   }
 }
