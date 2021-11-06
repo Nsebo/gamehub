@@ -1,16 +1,21 @@
 /*this is mobile*/
-
+@media screen and (max-width: 500px) {
+  .call-to-action {
+    width: 100%;
+  }
+}
 body {
   background-color: aliceblue;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   width: 100vw;
   overflow-x: hidden;
+  margin: 0;
 }
 
 .app-header {
   background-color: aqua;
-  height: 75px;
+  height: 60px;
 }
 
 .container {
@@ -23,6 +28,11 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 9px;
+  z-index: 1;
+  height: 50px;
+  width: 90px;
 }
 
 .hero-banner {
@@ -130,7 +140,7 @@ h2 {
 }
 
 /*this is desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: white;
     color: black;
