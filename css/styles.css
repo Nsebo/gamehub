@@ -1,33 +1,73 @@
 /*this is mobile*/
-
-body {
-  background-color: aliceblue;
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
-  width: 100vw;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .app-header {
+  height: 40px;
   background-color: aqua;
-  height: 75px;
 }
-
 .container {
   display: flex;
   align-items: top;
   justify-content: space-between;
-  gap: 10px;
-  padding: 12px;
+  padding: 0;
 }
-.logo {
+
+.nav-bar {
   display: flex;
-  justify-content: center;
+  padding: 20px 60px;
+}
+
+.nav-logo img {
+  width: 50px;
+  padding-top: 3px;
+  position: absolute;
+  left: 20px;
+}
+
+.nav-links ul {
+  margin-left: 75px;
+  display: inline;
   position: relative;
-  bottom: 9px;
-  z-index: 1;
-  height: 50px;
-  width: 90px;
+  right: 200%;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+.nav-links ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+.register-link {
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.nav-links {
+  font-size: 13px;
+  position: absolute;
+  right: 100px;
+}
+.fa-bars {
+  display: none;
+}
+
+.fa-user {
+  display: none;
 }
 
 .hero-banner {
@@ -62,11 +102,6 @@ body {
 }
 
 .thumbnail picture {
-  height: 100%;
-  width: 100%;
-}
-
-.thumbnail picture source {
   height: 100%;
   width: 100%;
 }
